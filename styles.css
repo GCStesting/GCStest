@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.timer {
+    font-size: 1.5em;
+    color: red;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.reference {
+    font-size: 0.8em;
+    color: lightgray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 100vh;
+    border: none;
+}

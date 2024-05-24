@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCS昏迷指數情境模擬 by Rex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="question-container">
+        <h1>GCS昏迷指數情境模擬</h1>
+        <p id="question">某位傷患對：</p>
+        <p id="prompt">請問昏迷指數為？</p>
+    </div>
+    <div class="timer-container">
+        <p class="timer" id="timer">1:20</p>
+    </div>
+    <form id="responseForm">
+        <label for="response">請輸入評估結果:</label>
+        <input type="number" id="response" name="response" required>
+        <button type="submit">提交</button>
+    </form>
+    <div class="result" id="result"></div>
+    <button id="newQuestionBtn">重新出題</button>
+    <div class="reference">
+        文件參考來源「內政部消防署編印-初級救護技術員訓練教材第三版」
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
